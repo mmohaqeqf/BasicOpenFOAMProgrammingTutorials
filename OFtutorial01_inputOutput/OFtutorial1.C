@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
     dictionary customDict;
     const word dictName("customProperties");
 
-    // Create and input-output object - this holds the path to the dict and its name
+    // Create an input-output object - this holds the path to the dict and its name
     IOobject dictIO
     (
         dictName, // name of the file
